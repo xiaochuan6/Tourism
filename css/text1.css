@@ -1,0 +1,140 @@
+@charset "utf-8";
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,em,form,fieldset,legend,input,textarea,select {
+	margin:0;
+	padding:0;
+	font-family: '宋体';
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+body {
+	background: #ECF9F1;
+}
+#header {
+	width: 100%;
+	height: 191px;
+	background: url('images/banner.png') ;
+	margin: 0 auto;
+}
+#header .headerMain, #nav .nav ,#main {
+	width: 960px;
+	margin: 0 auto;
+}
+#header .headerMain .logo {
+	width: 139px;
+	height: 42px;
+	margin-top: 5px;
+	margin-left: 5px;
+}
+#header .headerMain .h1 {
+	width: 794px;
+	height: 87px;
+	margin-left: 30px;
+	margin-top: 20px;
+}
+#nav{
+	width: 100%;
+	height: 38px;
+	background: #4CACF8;
+}
+#nav .nav .n1,.n2 {
+	color: #fff;
+	line-height: 38px;
+	font-size: 14px;
+}
+#nav .nav a:hover{
+	color: #c00;
+}
+#main {
+	background: #fff;
+	padding-bottom: 20px;
+}
+#main .wenzhang,.dizhi,.canjia,.yuyue,.tu {
+	width: 920px;
+	margin: 0 auto;
+	padding-top: 25px;
+}
+#main .wenzhang h2 {
+	font-family: '微软雅黑';
+	font-size: 20px;
+	color: #333333;
+	text-align: center;
+}
+#main .wenzhang img {
+	display: block;
+	margin: 0 auto;
+	padding-top: 20px;
+	padding-bottom: 25px;
+}
+#main .wenzhang  h3{
+	font-size: 14px;
+	line-height: 40px;
+}
+#main .wenzhang  p{
+	font-size: 14px;
+	text-indent: 2em;
+	color: #333333;
+	line-height: 25px;
+}
+#main h4 {
+	border-bottom: 1px solid #38A5FB;
+	margin-bottom: 10px;
+}
+#main h4 p{
+	width: 74px;
+	height: 22px;
+	font-size: 14px;
+	margin-left: 5px;
+	background: #38A5FB;
+	color: #fff;
+	text-align: center;
+	line-height: 22px;
+}
+#main ul li{
+	font-size: 14px;
+	color: #656565;
+	line-height: 25px;
+	padding-left: 15px;
+}
+#main .yuyue li{
+	float: left;
+	line-height: 48px;
+}
+#main .yuyue li a{
+	display: block;
+	width: 160px;
+	height: 48px;
+	background: #EFEFEF;
+	border: 1px solid #307BB7;
+	color: #307BB7;
+	font-size: 22px;
+	line-height: 48px;
+	text-align: center;
+	font-weight: bold;
+	border-radius: 10px;
+}
+#main .yuyue li a:hover {
+	background: #307BB7;
+	color: #EFEFEF;
+}
+#footer {
+	width: 100%;
+	margin-top: 20px;
+	padding-top: 30px;
+	border-top: 2px solid #CBD2CD;
+}
+#footer p{
+	width: 285px;
+	margin: 0 auto;
+	color: #656565;
+	font-size: 12px;
+}
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+}

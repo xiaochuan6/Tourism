@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>个人预约</title>
+	<link rel="stylesheet" type="text/css" href="css/individual order.css">
+</head>
+<body>
+	<div id="header">
+		<div class="headerMain">
+			<img class="logo" src="images/logo.png" name="logo">
+			<img class="h1" src="images/header1.png" name="标题">
+		</div>
+	</div>
+	<div id="nav">
+		<div class="nav">
+			<a class="n1" href="index.html">参观预约的开放单位列表>></a>
+			<a class="n2">参观预约</a>
+		</div>
+	</div>
+	<div id="main">
+		<div class="maintop">
+			<ul>
+				<li>开放单位：天安门观礼台 </li>
+				<li>开放时间：仅每月1日开放，其他时间不开放，具体开放时间以天安门地区管理委员会通知为准。 </li>
+			</ul>
+		</div>
+		<div class="content">
+			<div class="cnav">
+				<a class="first" href="javascript:;">2015年1月1号 预约已满</a>
+				<a class="now" href="javascript:;">2015年2月1号 还剩130个名额</a>
+				<a href="javascript:;">2015年3月1号 还剩30个名额</a>
+				<a href="javascript:;">2015年4月1号 还剩30个名额</a>
+			</div>
+		<div class="xuxiang">
+			<ul class="x">
+				<li class="x1"><a href="Team order.html">团队预约</a></li>
+				<li class="x2"><a>个人预约</a></li>
+			</ul>
+			<div class="m2">
+				<form name="reg" action="x.php" method="post">
+					<div class="f1"><p>预约时间：</p>2015年2月1号</div>
+					<div class="f2"><p>预约时段：</p><select name="time"><option value="上午">上午</option>
+					<option value="中午">中午</option>
+					<option value="下午">下午</option>
+					<option value="晚上">晚上</option></select></div>
+					<div class="f3"><p>预约人姓名：</p><input type="text" name="姓名" id="name" placeholder="请输入预约人的姓名"></div>
+					<div class="f4"><p>性别：</p><input type="radio" name="sex" value="1" checked id="m"><label for="m">男</label><input type="radio" name="sex" value="0" id="f"><label for="f">女</label></div>
+					<div class="f5"><p>民族：</p><input type="text" name="民族" id="minzu"><span>请输入正确的民族</span></div>
+					<div class="f6"><p>手机号：</p><input type="text" name="手机号" id="shouji"><span>请输入正确的手机号</span></div>
+					<div class="f7"><p>验证码：</p><input type="text" name="验证码" id="yanzheng"><a href="javascript:;">获取验证码</a></div>
+					<div class="f8"><p>身份证号：</p><input type="text" name="民族" id="minzu"><strong>请核对你的身份证号，确保正确</strong><span>请输入合法的身份证号码</span></div>
+					<div class="f9"><input type="submit" value="提交"></div>
+				</form>
+			</div>
+		</div>
+		</div>
+	</div>
+	<div id="footer">
+		<p>北京市旅游发展委员会官方网站 ©京ICP备13021917号</p>
+	</div>
+</body>
+</html>

@@ -1,0 +1,152 @@
+@charset "utf-8";
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,em,form,fieldset,legend,input,textarea,select {
+	margin:0;
+	padding:0;
+	font-family: '宋体';
+}
+ul {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	color: #000;
+}
+#header {
+width: 100%;
+height: 70px;
+background: #4EA3F0;
+border-radius: 5px;
+}
+#header .header,#main {
+	width: 960px;
+	margin: 0 auto;
+}
+#header .header h1 {
+	text-indent: -99999px;
+	margin-left: 10px;
+	float: left;
+	width: 509px;
+	height: 55px;
+	background: url('images/h1.png');
+}
+#header .header ul {
+	float: right;
+	margin-top: 22px;
+}
+#header .header ul li{
+	float: left;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 0 5px;
+	color: #fff;
+}
+#header .header ul li a{
+	color: #fff;
+	font-size: 14px;
+}
+#header .header ul li a:hover {
+	color: #c00;
+}
+#main .main {
+	width: 960px;
+	margin: 0 auto;
+	margin-top: 30px;
+}
+#main .main h2 {
+	width: 951px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 50px;
+	font-size: 30px;
+	color: #333333;
+	font-family: '微软雅黑';
+	border-bottom: 4px solid #CCCCCC;
+	font-weight: normal;
+	background: #F6F6F6;
+}
+#main .content .c1 {
+	margin-top: 20px;
+}
+#main .content .c1 li {
+	float: left;
+	padding-left: 15px;
+	padding-right: 20px;
+}
+#main .content .c1 li a{
+	display: block;
+	float: left;
+	width: 240px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #37A5FA;
+	height: 30px;
+	color: #37A5FA;
+	font-size: 14px;
+	font-weight: bold;
+}
+#main .content .c1 li .f{
+	border: 1px solid #c00;
+	background: #37A5FA;
+	color: #fff;
+}
+#main .content .c1 li a:hover {
+	border: 1px solid #c00;
+	background: #37A5FA;
+	color: #fff;
+
+}
+#main .caozuo {
+	width: 951px;
+	margin: 0 auto;
+}
+#main .caozuo a {
+	display: block;
+	float: left;
+	width: 66px;
+	height: 26px;
+	background: #06B0FF;
+	border-radius: 5px;
+	text-align: center;
+	line-height: 26px;
+	color: #fff;
+	font-weight: bold;
+	font-size: 14px;
+	margin: 10px 10px;
+}
+#main .c2 table {
+	width: 948px;
+	height: 156px;
+	margin: 0 auto;
+	border-collapse:collapse;
+	border: 1px solid #D4D4D4;
+	font-size: 12px;
+}
+#main .c2 tr {
+	color: #333333;
+	border-top: 1px solid #D4D4D4;
+}
+#main .c2 .c21,.c23{
+	background: #F1F1F1;
+}
+#main .c2 table tr td{
+	text-align: center;
+}
+
+#footer {
+	width: 100%;
+	margin-top: 320px;
+	padding-top: 30px;
+	border-top: 2px solid #CBD2CD;
+}
+#footer p{
+	width: 400px;
+	margin: 0 auto;
+	color: #656565;
+	font-size: 12px;
+}
+.clearfix:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
